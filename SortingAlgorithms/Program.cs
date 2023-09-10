@@ -20,6 +20,8 @@ namespace SortingAlgorithms
             BubbleSorting bubbleSorting = new BubbleSorting(numbers);
             bubbleSorting.Time();
 
+            ShellSorting shellSorting = new ShellSorting(numbers);
+            shellSorting.Time();
         }
     }
 }
